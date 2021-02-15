@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demodemodemo"
+  description: "demodemodemo"
+  annotations:
+    github.com/project-slug: blamdemo/demodemodemo
+    backstage.io/techdocs-ref: url:https://github.com/blamdemo/demodemodemo
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "demodemodemo"
